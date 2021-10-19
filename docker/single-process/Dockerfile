@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 
 ADD docker/scripts/prepare /scripts/prepare
 RUN /scripts/prepare
